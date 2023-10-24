@@ -1,0 +1,61 @@
+.outlined-button {
+    background: none;
+    border: 2px solid #3399FF;
+    color: #3399FF;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .outlined-button:hover {
+    background: #3399FF;
+    color: white;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .text-align-left {
+    text-align: left;
+  }
+  
+  .text-align-right {
+    text-align: right;
+    font-weight: bold;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Style for lines between rows */
+  tr {
+    border-bottom: 1px solid #F0ECEC; /* Adds a line at the bottom of each row */
+    margin-bottom: 5px;
+  }
+  
+  .space-between {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .add-button {
+    margin-right: -20px; /* This creates a gap of 10px between the price and button */
+  }
+  
+  .remove-button {
+    margin-left: -20px; /* This creates a gap of 10px between the price and button */
+  }
+    
+  h1 {
+    font-size: 30px;
+    text-align: left;  
+  }
+  

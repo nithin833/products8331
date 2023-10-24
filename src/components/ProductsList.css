@@ -1,0 +1,93 @@
+
+.product-list {
+  
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    display: flex; /* Use flexbox to create side-by-side columns */
+    width: 100%;    /* Set the width of the container to the desired width */
+    justify-content: space-between;
+    background-color: #ccc;
+  }
+
+  li {
+    margin-bottom: 10px;
+    list-style-type: none; /* Remove the bullet point */
+    text-align: left;      /* Set the text alignment to left (this is the default) */
+  }
+
+  h2 {
+    margin-left: 40px;
+    font-size: 30px;
+    text-align: left;  
+  }
+
+  .left-side {
+    margin: 25px ;
+    flex: 1;        /* Make the left side take up 50% of the container width */
+    padding: 10px;  /* Optional padding for spacing */
+    text-align: left;
+    background-color: #ffffff;
+  }
+  
+  .right-side {
+    margin: 25px;
+    flex: 1;        /* Make the right side take up 50% of the container width */
+    padding: 10px;  /* Optional padding for spacing */
+    text-align: left;
+    background-color: #ffffff;
+  }
+
+  .container {
+    margin-top: auto;
+    margin-left: 0%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .left-aligned {
+    flex: 1;
+    visibility: none;
+    font-weight: bold;
+  
+    text-align: left;
+  }
+  
+  .right-aligned {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .line {
+    width: 100%; /* Adjust the width as needed */
+    height: 1px; /* This sets the line thickness */
+    background-color: #cccccc; /* Grey color */
+    margin-top: 10px;
+  }
+  
+  .price-element {
+    margin-right: 20px; 
+  }
+
+  .button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #A9A9A9; /* Grey background color */
+    border: none;
+    border-radius: 10px; /* Rounded corners */
+    color: #ffffff; /* White text color */
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #3399FF; /* Darker grey on hover */
+  }
+ body {
+  background-color: lightgrey;
+  margin: 0;
+  padding: 0;
+ }
